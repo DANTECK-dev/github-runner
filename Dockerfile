@@ -15,6 +15,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 # Устанавливаем необходимые пакеты
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl unzip jq git build-essential libssl-dev libffi-dev python3 python3-venv python3-dev python3-pip \
+    libicu-dev \
     && rm -rf /var/lib/apt/lists/*
 
 # Создаём пользователя runner
