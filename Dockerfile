@@ -1,6 +1,6 @@
 # Запуск 
 # docker build -t github-runner .
-# docker run -e REPOS_NAME=your-runner-name -e RUNNER_TOKEN=your-runner-token github-runner
+# docker run -e REPOS_NAME=your-runner-name github-runner
 
 
 # Используем официальный образ Ubuntu
