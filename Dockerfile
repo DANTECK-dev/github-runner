@@ -1,6 +1,8 @@
 # Запуск 
 # docker build -t github-runner .
-# docker run -d -e REPOS_NAME=your-runner-name -e RUNNER_TOKEN=your-runner-token github-runner
+# USER_REPOS_NAME может указываться определеный = имя-пользователя/репозиторий,
+# либо же на всю организацию = название-организации
+# docker run -d -e USER_REPOS_NAME=your-runner-name -e RUNNER_TOKEN=your-runner-token github-runner
 
 
 # Используем официальный образ Ubuntu
